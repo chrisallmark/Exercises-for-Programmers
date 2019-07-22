@@ -1,0 +1,19 @@
+{
+  "name": "excercises-for-programmers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint \"**/*.js\"",
+    "test": "mocha \"**/*.test.js\""
+  },
+  "author": "Chris Allmark",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "mocha": "^6.1.4"
+  }
+}
