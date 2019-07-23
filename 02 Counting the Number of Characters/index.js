@@ -1,4 +1,4 @@
-const { createInterface } = require('readline').createInterface;
+const { createInterface } = require('readline');
 
 const countCharacters = word => `${word} has ${word.length} characters.`;
 

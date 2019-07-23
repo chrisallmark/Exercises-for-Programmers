@@ -1,4 +1,4 @@
-const { createInterface } = require('readline').createInterface;
+const { createInterface } = require('readline');
 
 const sayHello = name => `Hello, ${name}, nice to meet you!`;
 

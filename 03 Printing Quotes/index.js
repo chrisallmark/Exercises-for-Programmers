@@ -1,4 +1,4 @@
-const { createInterface } = require('readline').createInterface;
+const { createInterface } = require('readline');
 
 // eslint-disable-next-line prefer-template
 const printQuote = (quote, originator) => originator + ' says, "' + quote + '"';

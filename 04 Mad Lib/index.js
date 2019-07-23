@@ -1,4 +1,4 @@
-const { createInterface } = require('readline').createInterface;
+const { createInterface } = require('readline');
 
 const madLib = (noun, verb, adjective, adverb) => `Do you ${verb} your ${adjective} ${noun} ${adverb}? That's hilarious!`;
 

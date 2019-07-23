@@ -1,4 +1,4 @@
-const { createInterface } = require('readline').createInterface;
+const { createInterface } = require('readline');
 
 const sum = (first, second) => `${first} + ${second} = ${first + second}`;
 const difference = (first, second) => `${first} - ${second} = ${first - second}`;
