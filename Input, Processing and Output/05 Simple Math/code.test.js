@@ -2,7 +2,7 @@ const { expect } = require('chai');
 
 const {
   sum, difference, product, quotient, caclulator,
-} = require('./index');
+} = require('./code');
 
 describe('Simple Math', () => {
   it('Outputs the Sum', () => {

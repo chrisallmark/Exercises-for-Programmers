@@ -1,6 +1,6 @@
 const { expect } = require('chai');
 
-const { printQuote } = require('./index');
+const { printQuote } = require('./code');
 
 describe('Printing Quotes', () => {
   it('Outputs the Correct String', () => {

@@ -1,6 +1,6 @@
 const { expect } = require('chai');
 
-const { madLib } = require('./index');
+const { madLib } = require('./code');
 
 describe('Mad Lib', () => {
   it('Outputs the Correct String', () => {

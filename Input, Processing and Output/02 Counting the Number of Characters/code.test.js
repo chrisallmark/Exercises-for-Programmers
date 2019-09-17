@@ -1,6 +1,6 @@
 const { expect } = require('chai');
 
-const { countCharacters } = require('./index');
+const { countCharacters } = require('./code');
 
 describe('Counting the Number of Characters', () => {
   it('Has the Input String in the Output String', () => {

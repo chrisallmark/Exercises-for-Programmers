@@ -1,6 +1,6 @@
 const { expect } = require('chai');
 
-const { sayHello } = require('./index');
+const { sayHello } = require('./code');
 
 describe('Saying Hello', () => {
   it('Ouputs the Correct String', () => {
