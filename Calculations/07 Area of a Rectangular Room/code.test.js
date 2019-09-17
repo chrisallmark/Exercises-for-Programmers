@@ -6,7 +6,7 @@ const {
   areaOfARectangularRoom,
 } = require('./code');
 
-describe('Retirement Calculator', () => {
+describe('Area of a Rectangular Room', () => {
   it('Calculates Area In Square Feet', () => {
     expect(calculateAreaInSquareFeet(15, 20)).to.eql(300);
   });
