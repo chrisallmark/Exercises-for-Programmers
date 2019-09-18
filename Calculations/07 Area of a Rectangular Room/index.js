@@ -10,7 +10,7 @@ const readlineInterface = createInterface({
 });
 
 readlineInterface.question('What is the length of the room in feet? ', (length) => {
-  readlineInterface.question('What is the widht of the room in feet? ', (width) => {
+  readlineInterface.question('What is the width of the room in feet? ', (width) => {
     process.stdout.write(areaOfARectangularRoom(length, width));
     readlineInterface.close();
   });
