@@ -1,8 +1,9 @@
 const CONVERSION_FACTOR = 0.09290304;
 
 const calculateAreaInSquareFeet = (length, width) => length * width;
+
 // eslint-disable-next-line max-len
-const convertSquareFeetToSquareMeters = squareFeet => Math.round(squareFeet * CONVERSION_FACTOR * 1000) / 1000;
+const convertSquareFeetToSquareMeters = (squareFeet) => Math.round(squareFeet * CONVERSION_FACTOR * 1000) / 1000;
 
 const areaOfARectangularRoom = (length, width) => {
   const areaInSquareFeet = calculateAreaInSquareFeet(length, width);
