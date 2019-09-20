@@ -5,7 +5,7 @@ const {
   currencyConversion,
 } = require('./code');
 
-describe('Currency Calculator', () => {
+describe('Currency Conversion', () => {
   it('Converts Currency', () => {
     expect(convertCurrency(81, 137.51)).to.eql(111.38);
   });
