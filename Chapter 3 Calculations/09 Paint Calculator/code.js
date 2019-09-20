@@ -4,7 +4,6 @@ const calculateAreaInSquareFeet = (length, width) => length * width;
 
 const calculateGallonsNeeded = (squareFeet) => Math.ceil(squareFeet / COVERAGE_FACTOR);
 
-// eslint-disable-next-line max-len
 const paintCalculator = (length, width) => {
   const areaInSquareFeet = calculateAreaInSquareFeet(length, width);
   const gallonsNeeded = calculateGallonsNeeded(areaInSquareFeet);
